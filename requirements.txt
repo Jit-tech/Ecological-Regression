@@ -1,11 +1,28 @@
-streamlit
-pandas
-numpy
-plotly
-statsmodels
-torch
-pennylane
-xgboost
-tensorflow
-gym
-matplotlib
+# Use PyTorch CPU wheels
+--find-links https://download.pytorch.org/whl/cpu
+
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+torchaudio==2.1.0+cpu
+
+# TensorFlow CPU build
+tensorflow-cpu==2.13.0
+
+# Quantum ML
+pennylane>=0.27.0
+
+# Gradient-boosting
+xgboost>=1.7.5
+
+# Classical stats
+statsmodels>=0.14.0
+
+# Reinforcement learning
+gym>=0.26.2
+
+# Core app & viz
+streamlit>=1.21.0
+pandas>=1.5.3
+numpy>=1.24.2
+plotly>=5.15.0
+matplotlib>=3.7.1
