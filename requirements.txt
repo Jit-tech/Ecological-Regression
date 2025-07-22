@@ -3,9 +3,9 @@ pandas
 numpy
 plotly
 statsmodels
-torch
-pennylane
 xgboost
-tensorflow
 gym
 matplotlib
+pennylane
+torch
+tensorflow
