@@ -1,11 +1,21 @@
-streamlit
+# Tell pip where to find the CPU builds of PyTorch
+--find-links https://download.pytorch.org/whl/cpu
+
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+torchaudio==2.1.0+cpu
+
+tensorflow-cpu==2.13.0
+
+# Other ML & plotting libs
+pennylane
+xgboost
+statsmodels
+gym
+
+# Core data & web app
 pandas
 numpy
 plotly
-statsmodels
-xgboost
-gym
 matplotlib
-pennylane
-torch
-tensorflow
+streamlit
